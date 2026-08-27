@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Vinayaka Chavithi | Talakonda Gopichand</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            min-height: 100vh;
+            background: linear-gradient(135deg, #fff3d6, #ffd27f, #ff9f43);
+            color: #5b2600;
+            overflow-x: hidden;
+            text-align: center;
+        }
+
+        .top {
+            padding: 15px;
+            font-size: 28px;
+            animation: glow 2s infinite alternate;
+        }
+
+        .container {
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            padding: 30px 15px;
+        }
+
+        .ganesha {
+            font-size: 150px;
+            animation: float 3s ease-in-out infinite;
+            filter: drop-shadow(0 10px 10px rgba(0,0,0,0.2));
+        }
+
+        h1 {
+            font-size: 45px;
+            margin: 10px 0;
+            color: #9b2d00;
+            text-shadow: 2px 2px 4px #fff;
+        }
+
+        h2 {
+            font-size: 25px;
+            margin-bottom: 15px;
+        }
+
+        .message {
+            max-width: 650px;
+            font-size: 18px;
+            line-height: 1.7;
+            background: rgba(255,255,255,0.55);
+            padding: 20px;
+            border-radius: 20px;
+            box-shadow: 0 8px 25px rgba(0,0,0,0.15);
+        }
+
+        button {
+            margin-top: 25px;
+            padding: 14px 28px;
+            border: none;
+            border-radius: 30px;
+            background: #9b2d00;
+            color: white;
+            font-size: 18px;
+            cursor: pointer;
+            transition: 0.3s;
+        }
+
+        button:hover {
+            transform: scale(1.08);
+            background: #d35400;
+        }
+
+        .footer {
+            margin-top: 30px;
+            font-size: 16px;
+        }
+
+        .flower {
+            position: fixed;
+            top: -30px;
+            font-size: 25px;
+            animation: fall linear infinite;
+            pointer-events: none;
+        }
+
+        @keyframes float {
+            0%, 100% {
+                transform: translateY(0);
+            }
+            50% {
+                transform: translateY(-18px);
+            }
+        }
+
+        @keyframes glow {
+            from {
+                text-shadow: 0 0 5px #ff9800;
+            }
+            to {
+                text-shadow: 0 0 25px #ff5722;
+            }
+        }
+
+        @keyframes fall {
+            to {
+                transform: translateY(110vh) rotate(360deg);
+            }
+        }
+
+        @media (max-width: 600px) {
+            .ganesha {
+                font-size: 100px;
+            }
+
+            h1 {
+                font-size: 32px;
+            }
+
+            h2 {
+                font-size: 20px;
+            }
+
+            .message {
+                font-size:
