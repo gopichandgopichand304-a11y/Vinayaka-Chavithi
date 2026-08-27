@@ -1,2 +1,2 @@
-# Vinayaka-Chavithi
-Vinayaka Chavithi Interactive Website
+# KRISHNASHTAMI
+KRISHNASHTAMI Interactive Website
